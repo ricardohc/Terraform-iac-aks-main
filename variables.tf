@@ -35,7 +35,7 @@ variable "aks_cluster_name" {
 variable "node_vm_size" {
   description = "The size of the virtual machines in the AKS node pool"
   type        = string
-  default     = "Standard_B2s_v2"
+  default     = "Standard_D2s_v6"
 }
 
 variable "vnet_cidr" {
